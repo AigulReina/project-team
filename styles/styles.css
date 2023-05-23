@@ -1,1 +1,12 @@
-/*# sourceMappingURL=styles.css.map */
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../assets/fonts/HelveticaNeueCyr-Heavy.ttf") format("truetype"), url("../assets/fonts/HelveticaNeueCyr-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  src: url("../assets/fonts/HelveticaNeueCyr-Medium.ttf") format("truetype"), url("../assets/fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}/*# sourceMappingURL=styles.css.map */
