@@ -48,4 +48,33 @@
   text-align: center;
   gap: 20%;
   margin: 10%;
+}
+
+.footer_black {
+  display: flex;
+  justify-content: space-around;
+  background-color: #323131;
+  color: rgb(161, 161, 161);
+  padding: 2% 20% 2% 20%;
+}
+
+.connect__item-black {
+  color: white;
+}
+
+.footer__item-black {
+  color: white;
+}
+
+.footer_network {
+  justify-self: start;
+}
+
+.network {
+  margin: 10px 15px 3px 0;
+}
+
+.network_line {
+  position: absolute;
+  margin-left: 0%;
 }/*# sourceMappingURL=styles.css.map */
