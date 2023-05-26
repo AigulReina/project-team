@@ -58,6 +58,23 @@
     color: white;
 }
 
+.footer_white {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.98);
+    color: rgba(161, 161, 161, 1);
+    padding: 2% 20% 2% 20%;
+
+}
+
+.connect__item-white {
+    color: rgba(91, 91, 91, 1)
+}
+
+.footer__item-white {
+    color: rgba(91, 91, 91, 1)
+}
+
 .footer_network {
     justify-self: start;
 }
