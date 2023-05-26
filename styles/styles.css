@@ -9,4 +9,43 @@
   src: url("../assets/fonts/HelveticaNeueCyr-Medium.ttf") format("truetype"), url("../assets/fonts/HelveticaNeueCyr-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+}
+.programming {
+  background-color: black;
+  color: white;
+}
+
+.programming_main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  grid-template-rows: 10%;
+}
+
+.programming_photo {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+}
+
+.programming_title {
+  z-index: 1;
+  position: absolute;
+  top: 90%;
+  color: white;
+  text-align: center;
+}
+
+.programming_container {
+  display: grid;
+  justify-items: center;
+}
+
+.programming_option {
+  display: grid;
+  max-width: 800px;
+  justify-items: center;
+  text-align: center;
+  gap: 20%;
+  margin: 10%;
 }/*# sourceMappingURL=styles.css.map */
