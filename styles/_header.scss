@@ -1,0 +1,42 @@
+.header {
+    &_black {
+        @extend %tpl-backgr-black;
+    }
+    &_white {
+        @extend %tpl-backgr-white;
+    }
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+
+        @media (min-width:768px) {
+            max-width: 1160px;
+            width: 100%;
+            padding: 0 20px;
+        }
+    }
+
+    &__menu {
+        @extend %tpl-font-text;
+        display: flex;
+        justify-content: center;
+        padding: 36px 0;
+
+        @media (min-width:768px) {
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .nav {
+            display: none;
+
+            @media (min-width:768px) {
+                width: 624px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+}
