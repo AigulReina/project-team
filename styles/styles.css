@@ -14,7 +14,7 @@
   font-family: "HelveticaNeueCyr";
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
+  font-size: calc(18px + 0.7291666667vw);
   line-height: 110%;
 }
 
@@ -22,7 +22,7 @@
   font-family: "HelveticaNeueCyr";
   font-style: normal;
   font-weight: 550;
-  font-size: 18px;
+  font-size: calc(14px + 0.2083333333vw);
   line-height: 150%;
 }
 
