@@ -14,3 +14,39 @@
 	font-style: normal;
 }
 
+%tpl-font-h1 {
+	font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 110%;
+}
+// все заголовки макета, кроме страницы "О роботе"
+
+%tpl-font-h2 {
+	font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 110%;
+}
+//используется 1) на странице "О роботе" в заголовках с классом title 2) в базе знаний
+
+%tpl-font-text {
+	font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 150%;
+}
+// для всего текста и header один стиль
+
+%tpl-font-footer {
+	font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 13px;
+    line-height: 150%;
+}
+// для текста footer
+

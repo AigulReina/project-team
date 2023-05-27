@@ -9,4 +9,13 @@
   src: url("../assets/fonts/HelveticaNeueCyr-Medium.ttf") format("truetype"), url("../assets/fonts/HelveticaNeueCyr-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+}
+.overall-container {
+  background-color: #FBFBFB;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
