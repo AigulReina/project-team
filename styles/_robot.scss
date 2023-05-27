@@ -19,7 +19,13 @@
     @extend %tpl-font-h2;
     margin-top: 130px;
     margin-bottom: 130px;
-    max-width: 60%;
+    max-width: 45%;
+}
+
+.study {
+    @extend %tpl-font-h2;
+    margin-top: 130px;
+    max-width: 35%;
 }
 
 .contents {
