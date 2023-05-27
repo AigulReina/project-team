@@ -10,12 +10,53 @@
   font-weight: 500;
   font-style: normal;
 }
-.overall-container {
+.contnt, .title {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.contents__item, .header {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.header {
   background-color: #FBFBFB;
 }
 
 .main {
+  background-color: #FBFBFB;
+  text-align: center;
+}
+
+.about {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+
+.title {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  max-width: 60%;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contnt {
+  margin-top: 130px;
+  margin-bottom: 70px;
+  max-width: 60%;
 }/*# sourceMappingURL=styles.css.map */
