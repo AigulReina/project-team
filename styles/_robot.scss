@@ -1,0 +1,47 @@
+.header {
+    background-color: #FBFBFB;
+    @extend %tpl-font-text;
+}
+
+.main {
+    background-color: #FBFBFB;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    @extend %tpl-font-h2;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    max-width: 45%;
+}
+
+.study {
+    @extend %tpl-font-h2;
+    margin-top: 130px;
+    max-width: 35%;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents__item {
+    @extend %tpl-font-text;
+}
+
+.contnt {
+    @extend %tpl-font-h2;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    max-width: 60%;
+}
