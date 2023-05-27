@@ -10,6 +10,77 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.contnt, .study, .title {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(18px + 0.7291666667vw);
+  line-height: 110%;
+}
+
+.btn, .contents__item, .header {
+  font-family: "HelveticaNeueCyr";
+  font-style: normal;
+  font-weight: 550;
+  font-size: calc(14px + 0.2083333333vw);
+  line-height: 150%;
+}
+
+.header {
+  background-color: #FBFBFB;
+}
+
+.main {
+  background-color: #FBFBFB;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  max-width: 45%;
+}
+
+.study {
+  margin-top: 130px;
+  max-width: 35%;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contnt {
+  margin-top: 130px;
+  margin-bottom: 70px;
+  max-width: 60%;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 30px 10px 30px;
+}
+
+.icon {
+  margin-left: 10px;
+}/*# sourceMappingURL=styles.css.map */
+=======
 .programming {
   background-color: black;
   color: white;
@@ -96,3 +167,4 @@
 }
 
 /*# sourceMappingURL=styles.css.map */
+
