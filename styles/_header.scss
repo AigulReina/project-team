@@ -1,4 +1,5 @@
 .header {
+
     &_black {
         @extend %tpl-backgr-black;
     }
@@ -21,7 +22,7 @@
         @extend %tpl-font-text;
         display: flex;
         justify-content: center;
-        padding: 36px 0;
+        padding: 36px 0 100px 0;
 
         @media (min-width:768px) {
             justify-content: space-between;
@@ -37,6 +38,16 @@
                 justify-content: space-between;
                 align-items: center;
             }
+
+            &__item {
+                &:hover {
+                    border: 2px solid;
+                    border-radius: 15px;
+                    padding: 10px;
+                }
+            }
+
+            
         }
     }
 }
