@@ -256,10 +256,13 @@
 .community__banner {
   background-image: url("../assets/images/community.png");
   background-size: cover;
+  padding-top: 35vw;
+  padding-bottom: 5vw;
 }
-.community__community-title {
-  padding-top: 200px;
-  padding-bottom: 30px;
+.community__title {
+  font-size: 48px;
+  line-height: 52px;
+  color: #FFFFFF;
 }
 .community__container {
   max-width: 1124px;
@@ -269,6 +272,7 @@
 .community__subtitle {
   display: flex;
   flex-direction: column;
+  text-align: start;
   gap: 20px;
   padding: 20px 80px 0;
 }
