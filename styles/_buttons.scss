@@ -1,0 +1,18 @@
+.btn {
+    @extend %tpl-font-text;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.icon {
+    margin-left: 10px;
+}
