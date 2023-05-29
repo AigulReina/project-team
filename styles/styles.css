@@ -1,3 +1,5 @@
+@import url(_header.scss);
+@import url(_footer.scss);
 @font-face {
   font-family: "HelveticaNeueCyr";
   src: url("../assets/fonts/HelveticaNeueCyr-Heavy.ttf") format("truetype"), url("../assets/fonts/HelveticaNeueCyr-Heavy.woff") format("woff");
@@ -274,6 +276,80 @@
   padding: 20px 80px 0;
 }
 
+.main__base {
+  background-color: #000000;
+  padding: 30px;
+}
+@media (min-width: 767px) {
+  .main__base .main__base {
+    background-color: #000000;
+    padding: 10px;
+  }
+}
+
+.page__base {
+  display: flex;
+  font-size: 40px;
+  color: #FFFFFF;
+  margin-left: 260px;
+  position: relative;
+  top: -30px;
+}
+
+@media (max-width: 767px) {
+  .page__base {
+    justify-self: center;
+    margin-left: 0;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+  }
+}
+.base__box {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1100px;
+  height: 250px;
+  padding: 30px;
+  margin: 20px auto 20px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+}
+@media (min-width: 767px) {
+  .base__box {
+    height: auto;
+    margin-top: -20px auto -20px;
+  }
+}
+
+.base__box__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+}
+.base__box__content li {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  .base__box__content {
+    width: 100%;
+    padding: 10px;
+    margin-top: -20px;
+  }
+  ul li {
+    font-size: 16px;
+  }
+}
 .btn {
   display: flex;
   align-items: center;
