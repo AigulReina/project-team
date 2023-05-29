@@ -42,16 +42,55 @@
         padding-bottom: 50px;
     }
 
-    &__wrapper {
+    &__banner {
         padding-top: 3vw;
         padding-bottom: 16vw;
-        
+        margin-bottom: 10vw;
         color: black;
         background-image: url('../assets/images/robot1.png');
         background-size: cover;
         max-width: 100vw;
     }
+
+    &__banner1 {
+        padding-top: 16vw;
+        padding-bottom: 34vw;
+        margin-bottom: 10vw;
+        color:white;
+        background-image: url('../assets/images/title-1.png');
+        background-size: cover;
+        max-width: 100vw;
+    }
+
+    &__banner2 {
+        padding-top: 16vw;
+        padding-bottom: 30vw;
+        margin-bottom: 7vw;
+        color:white;
+        background-image: url('../assets/images/title-2.png');
+        background-size: cover;
+        max-width: 100vw;
+    }
+    
+    &__banner3 {
+        padding-top: 16vw;
+        padding-bottom: 30vw;
         
+        color:white;
+        background-image: url('../assets/images/title-3.png');
+        background-size: cover;
+        max-width: 100vw;
+    }
+
+    &__wrapper {
+        border: 2px solid;
+        border-radius: 10px;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 2vw;
+        margin-bottom: 5vw;
+    }
+
     &__container {
         @extend %tpl-text-container;
     }
@@ -60,9 +99,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2vw;
     }
     
+    &__list {
+        @extend %tpl-font-text;
+    }
+
     &__button {
         max-width: 220px;
         width: 100%;

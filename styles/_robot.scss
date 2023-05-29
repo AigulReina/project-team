@@ -1,6 +1,5 @@
-.main {
-    background-color: #FBFBFB;
-    text-align: center;
+.main-white {
+    @extend %tpl-backgr-white;
 }
 
 .about {
@@ -8,19 +7,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    text-align: center;
 
-.title {
-    @extend %tpl-font-h2;
-    margin-top: 130px;
-    margin-bottom: 130px;
-    max-width: 45%;
-}
-
-.study {
-    @extend %tpl-font-h2;
-    margin-top: 130px;
-    max-width: 35%;
+    .title {
+        @extend %tpl-font-h2;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        max-width: 45%;
+    }
+    
+    .study {
+        @extend %tpl-font-h2;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        max-width: 40%;
+    }
 }
 
 .contents {
@@ -28,15 +29,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    .contents__item {
+        @extend %tpl-font-text;
+    }
+    
+    .contnt {
+        @extend %tpl-font-h2;
+        margin-top: 130px;
+        margin-bottom: 70px;
+        max-width: 60%;
+    }
 }
 
-.contents__item {
-    @extend %tpl-font-text;
-}
-
-.contnt {
-    @extend %tpl-font-h2;
-    margin-top: 130px;
-    margin-bottom: 70px;
-    max-width: 60%;
+.robot-img {
+    max-width: 100vw;
 }
