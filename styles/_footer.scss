@@ -1,7 +1,37 @@
+.connect__item-black {
+  color: white;
+}
+
+.connect__item-white {
+  color: rgb(91, 91, 91);
+}
+
 .footer {
   @extend %tpl-font-footer;
 }
 
+.footer_navigation {
+  @media (max-width:768px) {
+    display: none;
+  }
+
+}
+
+.footer__item-black {
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__item-white {
+  color: rgb(91, 91, 91);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
 .footer_black {
   display: flex;
@@ -12,13 +42,6 @@
   padding: 2% 20% 2% 20%;
 }
 
-.connect__item-black {
-  color: white;
-}
-
-.footer__item-black {
-  color: white;
-}
 
 .footer_white {
   display: flex;
@@ -29,12 +52,10 @@
   padding: 2% 20% 2% 20%;
 }
 
-.connect__item-white {
-  color: rgb(91, 91, 91);
-}
 
-.footer__item-white {
-  color: rgb(91, 91, 91);
+
+.footer__item:hover {
+  text-decoration: underline;
 }
 
 .footer_network {
