@@ -1,9 +1,1 @@
-title:iRON
-description: Робот для обучения программированию
-baseurl: "" # Оставьте пустым, если сайт находится в корне репозитория
 
-# Тема (если используется)
-theme: jekyll-theme-architect
-
-# Параметры для GitHub Pages
-markdown: kramdown
